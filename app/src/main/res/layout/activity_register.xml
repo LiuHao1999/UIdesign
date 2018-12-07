@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+    <TextView
+        android:text="                 注册"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:background="#CE3D3A"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/buttonRegister2"
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/frame_login"
+        android:textSize="30dp"
+        android:text="注册" />
+    <Button
+        android:id="@+id/buttonBack2"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_back" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_phone"
+        />
+
+    <EditText
+        android:hint="至少6字符"
+        android:drawableLeft="@drawable/ic_lock"
+        android:maxLines="1"
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+</RelativeLayout>
